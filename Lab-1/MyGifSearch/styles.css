@@ -1,0 +1,86 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style the title */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the input box */
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the search button */
+#searchButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #ff1493;
+}
+
+/* Style the clear button (to be added later) */
+#clearButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #696969;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clearButton:hover {
+    background-color: #505050;
+}
+
+/* Style the GIF container */
+#gifContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style individual GIFs */
+.gif-item {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.gif-item:hover {
+    transform: scale(1.05);
+}

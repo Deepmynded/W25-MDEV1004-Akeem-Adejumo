@@ -1,0 +1,19 @@
+{
+  "name": "week2express",
+  "version": "1.0.0",
+  "description": "My first Express App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepmynded/W25-MDEV1004-Akeem-Adejumo.git"
+  },
+  "author": "Akeem Adejumo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepmynded/W25-MDEV1004-Akeem-Adejumo/issues"
+  },
+  "homepage": "https://github.com/Deepmynded/W25-MDEV1004-Akeem-Adejumo#readme"
+}
